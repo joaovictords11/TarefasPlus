@@ -47,4 +47,4 @@ http://localhost:3000
 Se você gostou do projeto ou tem alguma sugestão, sinta-se à vontade para entrar em contato comigo pelas minhas redes sociais:
 
 * Para suporte, mande um email para joaovictordesouza9285@gmail.com
-* Link para o meu linkedin [João Victor de Souza](https://url_do_link)
+* Link para o meu linkedin [João Victor de Souza](https://www.linkedin.com/in/joaovictords11)
