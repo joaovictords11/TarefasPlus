@@ -2,6 +2,7 @@ import NextAuthSessionProvider from "@/providers/sessionProvider";
 import "../../styles/globals.css";
 import Header from "@/components/header";
 import { Metadata } from "next";
+import Footer from "@/components/footer";
 
 export const metadata: Metadata = {
   icons: {
@@ -20,6 +21,7 @@ export default function RootLayout({
         <body>
           <Header />
           {children}
+          <Footer/>
         </body>
       </html>
     </NextAuthSessionProvider>

@@ -6,6 +6,7 @@ import {
   collection,
   deleteDoc,
   doc,
+  getDocs,
   onSnapshot,
   orderBy,
   query,
@@ -66,6 +67,16 @@ const Tarefas = ({ user }: { user: User }) => {
   const handleDeleteTask = async (id: string) => {
     const docRef = doc(db, "tarefas", id);
     await deleteDoc(docRef);
+
+    const commentsRef = collection(db, "comments");
+    const q = query(commentsRef, where("taskId", "==", id));
+
+    const commentsSnapshot = await getDocs(q);
+
+    commentsSnapshot.forEach(async (comment) => {
+      const commentRef = doc(db, "comments", comment.id);
+      await deleteDoc(commentRef);
+    });
   };
 
   return (
