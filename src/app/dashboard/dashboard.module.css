@@ -1,0 +1,44 @@
+.container {
+  width: 100%;
+}
+
+.content {
+  background-color: #0f0f0f;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contentForm {
+  max-width: 1024px;
+  width: 100%;
+  padding: 0 18px;
+  padding-bottom: 28px;
+  margin-top: 58px;
+}
+
+.title {
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.taskContainer {
+  width: 100%;
+  margin: 34px auto 0 auto;
+  padding: 0 18px;
+  max-width: 1024px;
+  display: flex;
+  flex-direction: column;
+}
+
+.taskContainer a {
+  text-decoration: none;
+  color: #0f0f0f;
+}
+
+.taskContainer h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 14px;
+}

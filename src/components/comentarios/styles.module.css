@@ -1,0 +1,43 @@
+.commentsContainer{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.commentsContainer h2{
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+.comment{
+    border: 1px solid #ddd;
+    padding: 14px;
+    border-radius: 4px;
+    margin-bottom: 14px;
+}
+
+.headComment{
+    display: flex;
+    align-items: center;
+}
+
+.commentsLabel{
+    background-color: #ccc;
+    padding: 4px 8px;
+    margin-right: 8px;
+    border-radius: 4px;
+}
+
+.buttonTrash{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.buttonTrash:hover{
+    opacity: 0.8;
+}
+
+.comment p{
+    margin-top: 14px;
+    white-space: pre-wrap;
+}
